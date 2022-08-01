@@ -11,7 +11,7 @@ const { User } = require('./server/Model/User');
 const { Comment } = require('./server/Model/Comment');
 
 app.use(express.static(path.join(__dirname, './client/build')));
-app.use('/img', express.static('./img'));
+app.use('/server/img', express.static('./server/img'));
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
@@ -100,7 +100,7 @@ app.post('/api/post/delete', (req, res) => {
 
 const storage = multer.diskStorage({
     destination: function(req, file, cb) {
-        cb(null, 'img/');
+        cb(null, './server/img/');
     },
     filename: function(req, file, cb) {
         cb(null, Date.now() + '-' + file.originalname);

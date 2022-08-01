@@ -11,7 +11,10 @@ function PostDetail() {
   const [postInfo, setPostInfo] = useState({});
   const [commentInfo, setCommentInfo] = useState('');
   const [commentList, setCommentList] = useState([]);
-  const port = process.env.PORT || 5000;
+  const port = 'http://localhost:5000/';
+  const img = `http://localhost:5000/${postInfo.image}`;
+  // 'https://online-markett.heroku.com/'
+  // 'http://localhost:5000/'
 
   let params = useParams();
   let navigate = useNavigate();
@@ -29,6 +32,7 @@ function PostDetail() {
         if (res.data.success) {
             setPostInfo(res.data.detail);
             let postId = res.data.detail._id;
+            console.log(res.data.detail.image);
             getCommentList(postId);
         }
     }).catch((err) => {
@@ -104,7 +108,7 @@ function PostDetail() {
         <div className={DetailCss.date}>{setTime(postInfo.createdAt, postInfo.updatedAt)}</div>
         <hr />
         <div className={DetailCss.content}>
-          {postInfo.image ? <img src={`http://localhost:${port}/${postInfo.image}`} /> : null}
+          {postInfo.image ? <img src={`http://localhost:5000/${postInfo.image}`} /> : null}
           <div>{postInfo.content}</div>
         </div>
       </div>
