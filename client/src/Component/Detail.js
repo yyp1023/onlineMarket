@@ -11,7 +11,7 @@ function PostDetail() {
   const [postInfo, setPostInfo] = useState({});
   const [commentInfo, setCommentInfo] = useState('');
   const [commentList, setCommentList] = useState([]);
-  const port = 'https://online-markett.heroku.com/';
+  const port = 'https://online-markett.herokuapp.com/';
   // 'https://online-markett.heroku.com/'
   // 'http://localhost:5000/'
 
