@@ -11,6 +11,7 @@ function PostDetail() {
   const [postInfo, setPostInfo] = useState({});
   const [commentInfo, setCommentInfo] = useState('');
   const [commentList, setCommentList] = useState([]);
+  const port = process.env.PORT || 5000;
 
   let params = useParams();
   let navigate = useNavigate();
@@ -103,7 +104,7 @@ function PostDetail() {
         <div className={DetailCss.date}>{setTime(postInfo.createdAt, postInfo.updatedAt)}</div>
         <hr />
         <div className={DetailCss.content}>
-          {postInfo.image ? <img src={`http://localhost:5000/${postInfo.image}`} /> : null}
+          {postInfo.image ? <img src={`http://localhost:${port}/${postInfo.image}`} /> : null}
           <div>{postInfo.content}</div>
         </div>
       </div>
