@@ -43,7 +43,7 @@ function Login() {
       <div className={LoginCss.error}>{error}</div>
       <div className={LoginCss.marginTop30}>
         <div>
-          <button onClick={() => {login()}}>Sign In</button>
+          <button onClick={() => {login()}}>Log In</button>
         </div>
         <div>
           <button className={LoginCss.marginTop20} onClick={() => {navigate('/register')}}>Register</button>

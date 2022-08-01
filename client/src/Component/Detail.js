@@ -31,7 +31,6 @@ function PostDetail() {
         if (res.data.success) {
             setPostInfo(res.data.detail);
             let postId = res.data.detail._id;
-            console.log(res.data.detail.image);
             getCommentList(postId);
         }
     }).catch((err) => {
