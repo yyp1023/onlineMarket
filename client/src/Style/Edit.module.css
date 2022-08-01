@@ -1,0 +1,73 @@
+.wrapper {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 20px;
+}
+
+.title {
+    margin: 20px;
+}
+
+.title input {
+    width: 100%;
+}
+
+.content {
+    margin: 20px;
+}
+
+.content textarea {
+    width: 100%;
+}
+
+.btn {
+    text-align: right;
+}
+
+.btn button {
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0px 5px;
+}
+
+.submit {
+    background-color: black;
+    color: white;
+}
+
+.submit:hover {
+    background-color: gray;
+    color: white;
+}
+
+.cancel {
+    background-color: red;
+    color: white;
+}
+
+.cancel:hover {
+    background-color: #9C2218;
+    color: white;
+}
+
+textarea {
+    resize: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+input {
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+label {
+    font-size: large;
+    font-weight: bold;
+}

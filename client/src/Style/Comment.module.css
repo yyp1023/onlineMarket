@@ -1,0 +1,92 @@
+.wrapper {
+    border: 1px solid black;
+    margin: 10px 0px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.author {
+    display: flex;
+}
+
+.authorName {
+    padding-left: 10px;
+    font-size: large;
+}
+
+.comment {
+    padding: 10px 0px;
+    word-break: break-word;
+}
+
+.btn {
+    margin-left: auto;
+}
+
+.date {
+    font-size: small;
+    color: gray;
+}
+
+.flex {
+    display: flex;
+}
+
+.edit {
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+}
+
+.edit:hover {
+    background-color: gray;
+    color: white;
+}
+
+.delete {
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+}
+
+.delete:hover {
+    background-color: #9C2218;
+    color: white;
+}
+
+.input {
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.commentBtn {
+    margin: 0px 10px;
+}
+
+.submit {
+    border-radius: 10px;
+    margin-right: 10px;
+    background-color: black;
+    color: white;
+}
+
+.submit:hover {
+    background-color: gray;
+    color: white;
+}
+
+.cancel {
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+}
+
+.cancel:hover {
+    background-color: #9C2218;
+    color: white;
+}

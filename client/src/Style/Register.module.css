@@ -1,0 +1,96 @@
+.wrapper {
+    text-align: center;
+    border: 5px solid black;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 5%;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.marginTop30 {
+    margin-top: 30px;
+}
+
+.nameCheck {
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px;
+    width: 30%;
+    min-width: fit-content;
+    background-color: black;
+    color: white;
+}
+
+.nameCheck:disabled {
+    background-color: white;
+    color: gray;
+}
+
+.nameCheck:hover:enabled {
+    background-color: gray;
+    color: white;
+}
+
+.register {
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: white;
+    padding: 5px;
+    width: 20%;
+    min-width: fit-content;
+    background-color: black;
+    color: white;
+}
+
+.register:hover {
+    background-color: gray;
+    color: white;
+}
+
+.input {
+    width: 80%;
+    text-align: center;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.email {
+    margin-top: 30px;
+}
+
+.password {
+    margin-top: 30px;
+}
+
+.confirmPassword {
+    margin-top: 30px;
+}
+
+.name input {
+    width: 100%;
+    max-width: 300px;
+}
+
+.email input {
+    width: 100%;
+    max-width: 300px;
+}
+
+.password input {
+    width: 100%;
+    max-width: 300px;
+}
+
+.confirmPassword input {
+    width: 100%;
+    max-width: 300px;
+}

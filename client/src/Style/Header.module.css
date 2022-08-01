@@ -1,0 +1,12 @@
+.btn {
+    color: white;
+    margin: 10px;
+}
+
+.btn:hover {
+    color: lightgray;
+}
+
+.btn:focus {
+    color: white;
+}

@@ -1,0 +1,8 @@
+.wrapper {
+    position: absolute;
+    z-index: 999;
+    top: 10%;
+    left: 20%;
+    right: 20%;
+    /* width: fit-content; */
+}

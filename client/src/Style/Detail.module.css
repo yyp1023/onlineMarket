@@ -1,0 +1,114 @@
+.wrapper {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: xx-large;
+    word-break: break-word;
+}
+
+.author {
+    display: flex;
+}
+
+.authorName {
+    padding-left: 10px;
+    font-size: large;
+}
+
+.date {
+    font-size: small;
+    color: gray;
+}
+
+.content {
+    margin-bottom: 20px;
+    word-break: break-word;
+}
+
+.content img {
+    width: 50%;
+    min-width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.content div {
+    margin: 10px;
+}
+
+.btn {
+    width: 60%;
+    max-width: 800px;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+}
+
+.edit {
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+}
+
+.edit:hover {
+    background-color: gray;
+    color: white;
+}
+
+.delete {
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+}
+
+.delete:hover {
+    background-color: #9C2218;
+    color: white;
+}
+
+.comment {
+    width: 90%;
+    max-width: 800px;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input {
+    width: 90%;
+    border-radius: 20px 0px 0px 20px;
+    padding: 8px 10px;
+}
+
+.submit {
+    width: 10%;
+    border-radius: 0px 20px 20px 0px;
+    padding: 8px 10px;
+    background-color: black;
+    color: white;
+}
+
+.submit:hover {
+    background-color: gray;
+    color: white;
+}
+
+.commentSubmit {
+    width: 100%;
+    
+}
